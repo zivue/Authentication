@@ -1,0 +1,27 @@
+{
+  "name": "authentication",
+  "version": "0.0.1",
+  "description": "This is an implementation of an Auth Microservice in NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zivue/Authentication.git"
+  },
+  "author": "zivue",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zivue/Authentication/issues"
+  },
+  "homepage": "https://github.com/zivue/Authentication#readme",
+  "dependencies": {
+    "@types/express": "^4.11.0",
+    "@types/node": "^8.5.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "winston": "^2.4.0"
+  }
+}
